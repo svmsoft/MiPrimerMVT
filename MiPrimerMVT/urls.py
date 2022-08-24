@@ -16,11 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from Familiares.views import principal
-from Familiares.views import lista
+#from Familiares.views import lista
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('principal/',principal),
-    path('lista/',lista),
+    #path('lista/',lista),
 ]

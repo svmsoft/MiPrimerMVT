@@ -11,8 +11,8 @@ def principal(request):
 
    return render(request, 'principal.html', context={})
 
-def ver_familiares(request):
-     miembro= miembros.objects.all()
-     context = {'miembro': miembros, }
-     return render(request, "lista.html", context={})
+#def ver_familiares(request):
+#     miembro= miembros.objects.all()
+#     context = {'miembro': miembros, }
+#     return render(request, "lista.html", context={})
      
